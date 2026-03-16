@@ -69,21 +69,23 @@
 
   <body>
     <div id="app">
-      <div class="header">
+      
+        
+<div class="header">
   <div class="avatar">
-    <a href="/">
+    <a href="/archives/">
       <!-- 头像取消懒加载，添加no-lazy -->
       
         <img no-lazy src="/images/fengjianwutong.png" alt="">
       
     </a>
-    <div class="nickname"><a href="/">枫间梧桐</a></div>
+    <div class="nickname"><a href="/archives/">枫间梧桐</a></div>
   </div>
   <div class="navbar">
     <ul>
       
-        <li class="nav-item" data-path="/">
-          <a href="/">首页</a>
+        <li class="nav-item" data-path="/archives/">
+          <a href="/archives/">首页</a>
         </li>
       
         <li class="nav-item" data-path="/archives/">
@@ -107,8 +109,8 @@
 
 
 
-      <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <div class="flex-container">
+          <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
 <!-- last: 按年份把文章分组，当前遍历到的年份 -->
 <!-- now: 当前遍历到的文章的发布年份 -->
@@ -116,44 +118,52 @@
 <div class="container archives">
   <div class="post-list">
     
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2026</span>
-          </h2>
+      <!-- 简单列表模式 (从封面进入时) -->
+      
+        <div class="post-item" title="Strongswan 1: 编译报错及解决办法">
+          <div class="time-m-d">2026-02-03</div>
+          <div class="title">
+            <a href="/2026/02/03/3-Strongswan-%E7%BC%96%E8%AF%91%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
+              
+                
+                  <span>Strongswan 1: 编译报错及解决办法</span>
+                
+              
+            </a>
+          </div>
         </div>
       
-      <div class="post-item" title="Strongswan 编译报错及解决办法">
-        <div class="time-m-d">02-03</div>
-        <div class="title">
-          <a href="/2026/02/03/3-Strongswan-%E7%BC%96%E8%AF%91%E6%8A%A5%E9%94%99%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
-            <span>Strongswan 编译报错及解决办法</span>
-          </a>
+        <div class="post-item" title="Hexo blog 2: 步骤简化 ">
+          <div class="time-m-d">2026-02-01</div>
+          <div class="title">
+            <a href="/2026/02/01/2-Hexo-blog-2-%E6%AD%A5%E9%AA%A4%E7%AE%80%E5%8C%96/">
+              
+                
+                  <span><span title="置顶" class="icon iconfont icon-pin-top post-top"></span>Hexo blog 2: 步骤简化 </span>
+                
+              
+            </a>
+          </div>
         </div>
-      </div>
-    
-      <div class="post-item" title="Hexo blog 2: 步骤简化 ">
-        <div class="time-m-d">02-01</div>
-        <div class="title">
-          <a href="/2026/02/01/2-Hexo-blog-2-%E6%AD%A5%E9%AA%A4%E7%AE%80%E5%8C%96/">
-            <span>Hexo blog 2: 步骤简化 </span>
-          </a>
+      
+        <div class="post-item" title="Hexo blog 1: 搭建步骤 ">
+          <div class="time-m-d">2026-01-30</div>
+          <div class="title">
+            <a href="/2026/01/30/1-Hexo-blog-1-%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/">
+              
+                
+                  <span><span title="置顶" class="icon iconfont icon-pin-top post-top"></span>Hexo blog 1: 搭建步骤 </span>
+                
+              
+            </a>
+          </div>
         </div>
-      </div>
-    
-      <div class="post-item" title="Hexo blog 1: 搭建步骤 ">
-        <div class="time-m-d">01-30</div>
-        <div class="title">
-          <a href="/2026/01/30/1-Hexo-blog-1-%E6%90%AD%E5%BB%BA%E6%AD%A5%E9%AA%A4/">
-            <span>Hexo blog 1: 搭建步骤 </span>
-          </a>
-        </div>
-      </div>
+      
     
   </div>
 </div>
 
-        
+          
 <div class="footer">
   <div class="social">
     <ul>
@@ -199,10 +209,10 @@
   
 </div>
 
-      </div>
+        </div>
 
-      <div class="tools-bar">
-        <div class="back-to-top tools-bar-item hidden">
+        <div class="tools-bar">
+          <div class="back-to-top tools-bar-item hidden">
   <a href="javascript: void(0)">
     <i class="iconfont icon-chevronup"></i>
   </a>
@@ -213,7 +223,7 @@
 
 
 
-        
+          
   <div class="search-icon tools-bar-item" id="search-icon">
     <a href="javascript: void(0)">
       <i class="iconfont icon-search"></i>
@@ -406,7 +416,7 @@
 
 
 
-        
+          
   <div class="tools-bar-item theme-icon" id="switch-color-scheme">
     <a href="javascript: void(0)">
       <i id="theme-icon" class="iconfont icon-moon"></i>
@@ -420,9 +430,10 @@
 
 
 
-        
+          
 
-      </div>
+        </div>
+      
     </div>
   
         <style>
